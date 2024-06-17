@@ -1,0 +1,120 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+    position: relative;
+ }
+
+header{
+    position:fixed;
+    z-index: 999;
+    background-color: white;
+    width: 100vw;
+}
+
+.banner{
+    height: 85vh;
+    background: url(./Multimedia/banner\ background.png) no-repeat center / cover;
+}
+
+@media (max-width: 991px) {
+    .banner{
+        height: 70%;
+        display: flex;
+    }
+    .banner h1, p{
+        text-align: center;
+        margin-top: 25px;
+    }
+    .banner a{
+        align-content: center;
+    }    
+    .banner img{
+        height: 275px;
+        width: 275px;
+        margin: 25px 0 25px 0;
+    }
+    .barra{
+        height: 30%;
+    }
+
+    .aboutus p, h1{
+        text-align: justify;
+    }
+}
+
+.banner h1{
+    color: white;
+    font-weight: 800;
+    font-size: 4em;
+}
+
+.banner p{
+    color: white;
+    font-size: large;
+}
+
+.barra{
+    color: white;
+    height: 15vh;
+    background-color: rgb(44, 156, 255);
+}
+
+.barra p{
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+
+#contenido1{
+    display: none;
+}
+
+#contenido2{
+    display: none;
+}
+
+#contenido3{
+    display: none;
+}
+
+.aboutus h1{
+    font-weight: 800;
+    color: rgb(44, 156, 255);
+}
+
+.aboutus p{
+    font-size: large;
+}
+
+.aboutus img{
+    border-radius: 225px 0 225px 0;
+}
+
+.btn-booknow {
+    background-color: orange;
+    color: white;
+}
+
+.btn-booknow:hover{
+    background-color: white;
+    color: rgb(44, 156, 255);
+}
+
+.servicearea h1{
+    font-weight: 800;
+    color: rgb(44, 156, 255);
+}
+
+.poweredby a{
+    font-size: .8em;
+    color: grey;
+    text-decoration: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: grey;
+}
