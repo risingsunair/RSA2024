@@ -16,7 +16,7 @@ header{
 
 .banner{
     height: 85vh;
-    background: url(./Multimedia/banner\ background.png) no-repeat center / cover;
+    background: url(./Multimedia/banner_background.webp) no-repeat center / cover;
 }
 
 @media (max-width: 991px) {
