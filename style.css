@@ -75,14 +75,17 @@ header{
 
 #contenido1{
     display: none;
+    flex-flow: wrap;
 }
 
 #contenido2{
     display: none;
+    flex-flow: wrap;
 }
 
 #contenido3{
     display: none;
+    flex-flow: wrap;
 }
 
 .aboutus h1{
