@@ -19,6 +19,11 @@ header{
     background: url(./Multimedia/banner_background.webp) no-repeat center / cover;
 }
 
+.banner img{
+    width: 400px;
+    height: 400px;
+}
+
 @media (max-width: 991px) {
     .banner{
         height: 70%;
@@ -32,8 +37,8 @@ header{
         align-content: center;
     }    
     .banner img{
-        height: 275px;
-        width: 275px;
+        height: 225px;
+        width: 225px;
         margin: 25px 0 25px 0;
     }
     .barra{
@@ -48,7 +53,7 @@ header{
 .banner h1{
     color: white;
     font-weight: 800;
-    font-size: 4em;
+    font-size: 3.5em;
 }
 
 .banner p{
@@ -63,7 +68,7 @@ header{
 }
 
 .barra p{
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: 500;
 }
 
