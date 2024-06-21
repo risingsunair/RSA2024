@@ -130,3 +130,34 @@ footer a{
 .card h1{
     font-size: 1.2em;
 }
+
+.blog h1{
+    font-size: 3.5em;
+    color: rgb(44, 156, 255);
+}
+
+.blog p{
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+@media (max-width: 1200px) {
+    .blog img{
+        width: 350px;
+        height: 350px;
+        align-items: center;
+    }
+
+    .blog h1{
+        font-size: 1.8em;
+    }
+
+    .blog h2{
+        font-size: 1.5em;
+    }
+
+    .blog p{
+        font-size: 1em;
+    }
+}
+
