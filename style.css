@@ -12,66 +12,36 @@ header{
     z-index: 999;
     background-color: white;
     width: 100vw;
+    height: 10vh;
 }
 
-.banner{
-    height: 85vh;
-    background: url(./Multimedia/banner_background.webp) no-repeat center / cover;
-}
-
-.banner img{
-    width: 400px;
-    height: 400px;
-}
-
-@media (max-width: 991px) {
-    .banner{
-        height: 70%;
-        display: flex;
-    }
-    .banner h1, p{
-        text-align: center;
-        margin-top: 25px;
-    }
-    .banner a{
-        align-content: center;
-    }    
-    .banner img{
-        height: 225px;
-        width: 225px;
-        margin: 25px 0 25px 0;
-    }
-    .barra{
-        height: 30%;
-    }
-
-    .aboutus p, h1{
-        text-align: justify;
-    }
-}
-
-.banner h1{
+/*HERO*/
+.hero {
+    height: 90vh;
+    width: 100vw;
+    background: linear-gradient(rgb(44, 156, 255), rgb(13, 110, 195));
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    text-align: center;
     color: white;
+}
+
+.hero h1{
+    font-size: 5em;
     font-weight: 800;
-    font-size: 3.5em;
+    color: orange;
 }
 
-.banner p{
-    color: white;
-    font-size: large;
+.hero p{
+    font-size: 1.7em;
 }
 
-.barra{
-    color: white;
-    height: 15vh;
-    background-color: rgb(44, 156, 255);
+@media (max-width: 768px) {
+    .hero {
+        height: 50vh;
+    }
 }
-
-.barra p{
-    font-size: 1.2em;
-    font-weight: 500;
-}
-
 
 #contenido1{
     display: none;
@@ -133,6 +103,7 @@ footer a{
 
 .blog h1{
     font-size: 3.5em;
+    font-weight: 600;
     color: rgb(44, 156, 255);
 }
 
@@ -150,6 +121,7 @@ footer a{
 
     .blog h1{
         font-size: 1.8em;
+        font-weight: 600;
     }
 
     .blog h2{
