@@ -69,6 +69,24 @@ header{
 
 .aboutus img{
     border-radius: 225px 0 225px 0;
+    height: 350px;
+    width: 450px;
+}
+
+@media (max-width:768px) {
+    .aboutus img{
+        height: 20em;
+        width: 25em;
+        border-radius: 200px 0 200px 0;
+    }
+}
+
+@media (max-width:576px) {
+    .aboutus img{
+        height: 18em;
+        width: 22em;
+        border-radius: 175px 0 175px 0;
+    }
 }
 
 .btn-booknow {
@@ -102,9 +120,8 @@ footer a{
 }
 
 .blog h1{
-    font-size: 3.5em;
+    font-size: 3em;
     font-weight: 600;
-    color: rgb(44, 156, 255);
 }
 
 .blog p{
