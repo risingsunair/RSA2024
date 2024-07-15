@@ -12,12 +12,13 @@ header{
     z-index: 999;
     background-color: white;
     width: 100vw;
-    height: 14vh;
+    height: auto;
 }
 
 /*HERO*/
 .bsb-hero-2{
     background: url(./Multimedia/banner_background.svg) no-repeat center / cover;
+    height: auto;
 }
 
 .bsb-hero-2 h1, p{
