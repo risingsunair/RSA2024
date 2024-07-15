@@ -23,6 +23,11 @@ header{
 
 .bsb-hero-2 h1, p{
     color: white;
+    font-weight: 600;
+}
+
+.bsb-hero-2 button{
+    font-weight: 600;
 }
 
 .btn-booknow {
@@ -79,8 +84,8 @@ header{
     }
 
     .bsb-hero-2 img{
-        height: 17em;
         width: 22em;
+        height: 20em;
     }
 
     .bsb-hero-2 h1{
@@ -89,6 +94,12 @@ header{
 
     .bsb-hero-2 p{
         font-size: 1.2em;
+    }
+
+    .bsb-hero-2 button{
+        height: 3em;
+        width: 12em;
+        font-weight: 600;
     }
 
     .aboutus img{
