@@ -12,7 +12,7 @@ header{
     z-index: 999;
     background-color: white;
     width: 100vw;
-    height: 10vh;s
+    height: 10vh;
 }
 
 /*HERO*/
@@ -38,35 +38,6 @@ header{
     background-color: white;
     color: rgb(44, 156, 255);
 }
-
-/*HERO
-.hero {
-    height: 90vh;
-    width: 100vw;
-    background: linear-gradient(rgb(44, 156, 255), rgb(13, 110, 195));
-    display: flex;
-    justify-content: center;
-    background-size: cover;
-    text-align: center;
-    color: white;
-}
-
-.hero h1{
-    font-size: 5em;
-    font-weight: 800;
-    color: orange;
-}
-
-.hero p{
-    font-size: 1.7em;
-}
-
-@media (max-width: 768px) {
-    .hero {
-        height: 50vh;
-    }
-}
-*/
 
 #contenido1{
     display: none;
