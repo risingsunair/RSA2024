@@ -12,10 +12,34 @@ header{
     z-index: 999;
     background-color: white;
     width: 100vw;
-    height: 10vh;
+    height: 10vh;s
 }
 
 /*HERO*/
+.bsb-hero-2{
+    background: url(./Multimedia/banner_background.svg) no-repeat center / cover;
+}
+
+.bsb-hero-2 h1, p{
+    color: white;
+}
+
+.btn-booknow {
+    background-color: orange;
+    color: white;
+    border: none;
+    height: 3em;
+    width: 10em;
+    border-radius: .5em;
+    font-weight: 600;
+}
+
+.btn-booknow:hover{
+    background-color: white;
+    color: rgb(44, 156, 255);
+}
+
+/*HERO
 .hero {
     height: 90vh;
     width: 100vw;
@@ -42,6 +66,7 @@ header{
         height: 50vh;
     }
 }
+*/
 
 #contenido1{
     display: none;
@@ -65,6 +90,8 @@ header{
 
 .aboutus p{
     font-size: large;
+    color: black;
+    text-align: justify;
 }
 
 .aboutus img{
@@ -79,6 +106,11 @@ header{
         width: 25em;
         border-radius: 200px 0 200px 0;
     }
+
+    .aboutus p{
+        text-align: justify;
+        font-size: 1em;
+    }
 }
 
 @media (max-width:576px) {
@@ -87,16 +119,11 @@ header{
         width: 22em;
         border-radius: 175px 0 175px 0;
     }
-}
 
-.btn-booknow {
-    background-color: orange;
-    color: white;
-}
-
-.btn-booknow:hover{
-    background-color: white;
-    color: rgb(44, 156, 255);
+    .aboutus p{
+        text-align: justify;
+        font-size: 1em;
+    }
 }
 
 .servicearea h1{
