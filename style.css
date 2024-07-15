@@ -12,7 +12,7 @@ header{
     z-index: 999;
     background-color: white;
     width: 100vw;
-    height: 10vh;
+    height: 14vh;
 }
 
 /*HERO*/
@@ -72,6 +72,24 @@ header{
 }
 
 @media (max-width:768px) {
+    nav img{
+        width: 5em;
+        height: 3.5em;
+    }
+
+    .bsb-hero-2 img{
+        height: 17em;
+        width: 22em;
+    }
+
+    .bsb-hero-2 h1{
+        font-size: 2em;
+    }
+
+    .bsb-hero-2 p{
+        font-size: 1.2em;
+    }
+
     .aboutus img{
         height: 20em;
         width: 25em;
