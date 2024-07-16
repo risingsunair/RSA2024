@@ -158,7 +158,7 @@ nav .btn-txt{
     
 }
 
-@media (max-width:576px) {
+@media (max-width:575px) {
     .hero {
         height: auto;
     }
@@ -171,6 +171,36 @@ nav .btn-txt{
     .hero h1{
         font-size: 3em;
         font-weight: 900;
+        text-align: center;
+    }
+
+    .hero p{
+        font-size: 1.2em;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .hero button{
+        height: 3em;
+        width: 12em;
+        font-weight: 600;
+    }
+
+}
+
+@media (max-width: 390px) {
+    .hero {
+        height: auto;
+    }
+
+    .hero img{
+        width: 5em;
+        height: 5em;
+    }
+
+    .hero h1{
+        font-size: 2em;
+        font-weight: 800;
         text-align: center;
     }
 
