@@ -109,6 +109,7 @@ nav .btn-txt{
         font-size: 1.3em;
         font-weight: 600;
         text-align: center;
+        text-shadow: rgba(21, 10, 95, 0.242) 5px 5px 5px;
     }
 
     .hero button{
