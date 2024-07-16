@@ -54,7 +54,7 @@ nav .btn-txt{
 
 /*HERO*/
 .hero-container{
-    height: 75vh;
+    height: 90vh;
     text-align: center;
 }
 
@@ -170,7 +170,7 @@ nav .btn-txt{
 
     .hero h1{
         font-size: 3em;
-        font-weight: 800;
+        font-weight: 900;
         text-align: center;
     }
 
@@ -188,6 +188,19 @@ nav .btn-txt{
 
 }
 /*HERO ENDS*/
+
+/*PROMOS BANNER
+.promo-izq{
+    background-color: rgb(44, 156, 255);
+    height: 15vh;
+}
+
+.promo-der{
+    background-color: orange;
+    height: 15vh;
+}
+PROMOS BANNER ENDS*/
+
 
 /*CARDS SERVICES*/
 #contenido1{
