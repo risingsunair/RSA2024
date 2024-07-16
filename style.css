@@ -12,23 +12,181 @@ header{
     z-index: 999;
     background-color: white;
     width: 100vw;
-    height: auto;
 }
+
+/*NAV*/
+nav .btn-primary{
+    height: 3em;
+}
+
+nav .btn{
+    font-size: .8em;
+    font-weight: 600;
+}
+
+nav li{
+    font-size: 1em;
+    font-weight: 500;
+
+}
+
+nav .btn-txt{
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight:800;
+    color: orange;
+}
+
+@media (max-width:768px) {
+    nav img{
+        width: 5em;
+        height: 3.5em;
+    }
+}
+
+@media (max-width:992px) {
+    nav img{
+        width: 5em;
+        height: 3em;
+    }
+}
+/*NAV ENDS*/
 
 /*HERO*/
-.bsb-hero-2{
-    background: url(./Multimedia/banner_background.svg) no-repeat center / cover;
-    height: auto;
+.hero-container{
+    height: 80vh;
+    text-align: center;
 }
 
-.bsb-hero-2 h1, p{
+.hero {
+    background-image: url(./Multimedia/background_4.png);
+    height: 100%;
+    background-size: cover;
+}
+
+.hero h1, p{
     color: white;
-    font-weight: 600;
 }
 
-.bsb-hero-2 button{
-    font-weight: 600;
+.hero h1{
+    font-size: 5.2em;
+    font-weight: 800;
+    text-shadow: rgba(21, 10, 95, 0.242) 5px 5px 5px;
 }
+
+.hero p{
+    font-size: 1.8em;
+    font-weight: 600;
+    text-shadow: rgba(21, 10, 95, 0.242) 5px 5px 5px;
+}
+
+.hero .btn{
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    height: 3em;
+}
+
+.hero img{
+    height: 30em;
+    width: 30em;
+}
+
+@media (max-width:992px) {
+    .hero img{
+        width: 22em;
+        height: 20em;
+    }
+
+    .hero h1{
+        font-size: 3.5em;
+        text-align: center;
+        font-weight: 800;
+        text-shadow: rgba(21, 10, 95, 0.242) 5px 5px 5px;
+    }
+
+    .hero p{
+        font-size: 1.3em;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .hero button{
+        height: 2.5em;
+        width: 10em;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width:768px) {
+    .hero .img-element{
+        width: 15em;
+        height: 15em;
+        margin-top: .5em;
+    }
+
+    .hero h1{
+        font-size: 3.5em;
+        padding: .5em;
+        font-weight: 800;
+        text-shadow: rgba(21, 10, 95, 0.242) 5px 5px 5px;
+        text-align: center;
+        margin-top: -1em;
+    }
+
+    .hero p{
+        font-size: 1.5em;
+        font-weight: 500;
+        text-align: center;
+        margin-top: -.5em;
+    }
+
+    .hero button{
+        height: 3em;
+        width: 12em;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1em;
+    }
+    
+}
+
+@media (max-width:499px) {
+    .hero {
+        height: auto;
+    }
+
+    .hero img{
+        width: 10em;
+        height: 10em;
+    }
+
+    .hero h1{
+        font-size: 3em;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .hero p{
+        font-size: 1.2em;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .hero button{
+        height: 3em;
+        width: 12em;
+        font-weight: 600;
+    }
+
+}
+/*HERO ENDS*/
 
 .btn-booknow {
     background-color: orange;
@@ -45,6 +203,8 @@ header{
     color: rgb(44, 156, 255);
 }
 
+
+/*CARDS SERVICES*/
 #contenido1{
     display: none;
     flex-flow: wrap;
@@ -60,6 +220,9 @@ header{
     flex-flow: wrap;
 }
 
+/*CARDS SERVICES ENDS*/
+
+/*ABOUT US*/
 .aboutus h1{
     font-weight: 800;
     color: rgb(44, 156, 255);
@@ -77,31 +240,7 @@ header{
     width: 450px;
 }
 
-@media (max-width:768px) {
-    nav img{
-        width: 5em;
-        height: 3.5em;
-    }
-
-    .bsb-hero-2 img{
-        width: 22em;
-        height: 20em;
-    }
-
-    .bsb-hero-2 h1{
-        font-size: 2em;
-    }
-
-    .bsb-hero-2 p{
-        font-size: 1.2em;
-    }
-
-    .bsb-hero-2 button{
-        height: 3em;
-        width: 12em;
-        font-weight: 600;
-    }
-
+@media (max-width:768px){
     .aboutus img{
         height: 20em;
         width: 25em;
@@ -126,6 +265,8 @@ header{
         font-size: 1em;
     }
 }
+
+/*ABOUT US ENDS*/
 
 .servicearea h1{
     font-weight: 800;
