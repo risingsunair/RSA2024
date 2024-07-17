@@ -195,8 +195,8 @@ nav .btn-txt{
 
     .hero h1{
         margin-top: -4em;
-        font-size: 2.5em;
-        font-style: oblique;       
+        font-size: 3em;  
+        font-weight: bolder;  
         text-shadow: rgba(21, 10, 95, 0.242) 5px 5px 5px;
         text-align: center;
     }
@@ -205,7 +205,7 @@ nav .btn-txt{
         font-size: 1.5em;
         font-weight: 600;
         text-align: center;
-        margin-top: -.5em;
+        padding: 1em;
     }
 
     .hero button{
