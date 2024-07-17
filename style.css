@@ -189,14 +189,14 @@ nav .btn-txt{
 @media (max-width:576px) {
     .hero img{
         margin-top: -2em;
-        width: 15em;
-        height: 15em;
+        width: 12em;
+        height: 12em;
     }
 
     .hero h1{
-        margin-top: -2em;
-        font-size: 3em;
-       
+        margin-top: -4em;
+        font-size: 2.5em;
+        font-style: oblique;       
         text-shadow: rgba(21, 10, 95, 0.242) 5px 5px 5px;
         text-align: center;
     }
