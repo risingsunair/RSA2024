@@ -32,9 +32,8 @@ nav li{
 
 nav .btn-txt{
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight:800;
-    color: orange;
 }
 
 @media (max-width:768px) {
@@ -179,6 +178,7 @@ nav .btn-txt{
 
 #contenido1{
     display: none;
+    flex-flow: wrap;
 }
 
 #contenido2{
