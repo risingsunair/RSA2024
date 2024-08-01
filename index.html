@@ -56,24 +56,25 @@
     </nav>
 </header>
 <body>
+  <main>
     <!--BANNER-->
     <!--HERO PROPIO-->
     <section>
       <div class="hero-container container-fluid">
         <div class="hero row">
-          <div class="col-12 col-lg-7 d-flex align-items-center justify-content-center order-1 order-lg-0">
+          <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center">
+            <img class="img-element" src="./Multimedia/sunny.svg" alt="">
+          </div>
+          <div class="col-12 col-lg-7 d-flex align-items-center justify-content-center">
             <div>
-              <h1 style="font-weight: 900;">FAST RESPONSE, RELIABLE SERVICE!</h1>
-              <p>WE'LL BEAT OR MATCH COMPETITORS PRICING!</p>
+              <h1 class="hero-h1">FAST RESPONSE, RELIABLE SERVICE!</h1>
+              <p class="hero-p">WE'LL BEAT OR MATCH COMPETITORS PRICING!</p>
               <div class="d-flex justify-content-center">
               <button class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-calendar-check-fill m-2" viewBox="0 0 16 16">
                 <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2m-5.146-5.146-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708"/>
             </svg>BOOK NOW</button>
               </div>
             </div>
-          </div>
-          <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center">
-            <img class="img-element" src="./Multimedia/sunny.svg" alt="">
           </div>
         </div>
 
@@ -82,27 +83,28 @@
   
     <!--SERVICES-->
     <section>
-      <div class="services container mt-3 mb-3">
+      <div class="services-container container mt-3 mb-3">
         <div class="row">
-          <div class="col-12 col-lg-4">
+          <!--SERVICE 1-->
+          <div class="col-12 col-md-4">
             <div class="card mb-3">
               <img src="./Multimedia/System Diagnostic.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">System Diagnostic</h5>
                 <div id="contenido1">
-                <p class="card-text">Includes:</p>
-                <ul>
-                  <li>Examining the thermostat to ensure it is functioning properly.</li>
-                  <li>Checking the system controls and start-up cycle.</li>
-                  <li>Tightening all the electrical connections.</li>
-                  <li>Checking for correct current and voltage on all motors.</li>
-                  <li>Inspecting the condensate drain.</li>
-                  <li>Checking and adjusting the cooling system’s refrigerant level.</li>
-                  <li>Diagnostic fee will be waived if customer goes with repair or replacement of unit.</li>
-                  <br>
-                  <p><strong>If a temporary repair is done on customer's unit until replacement is scheduled and customer decides to go with another company for the replacement, the cost of the temporary repair will be due from customer.</strong></p>
-                  <p style="color: red;"><strong>Rising Sun Air is not responsible for roof repairs or water leaks.</strong></p>
-                </ul>                          
+                  <p class="card-text">Includes:</p>
+                  <ul>
+                    <li>Examining the thermostat to ensure it is functioning properly.</li>
+                    <li>Checking the system controls and start-up cycle.</li>
+                    <li>Tightening all the electrical connections.</li>
+                    <li>Checking for correct current and voltage on all motors.</li>
+                    <li>Inspecting the condensate drain.</li>
+                    <li>Checking and adjusting the cooling system’s refrigerant level.</li>
+                    <li>Diagnostic fee will be waived if customer goes with repair or replacement of unit.</li>
+                    <br>
+                    <p style="color: black;"><strong>If a temporary repair is done on customer's unit until replacement is scheduled and customer decides to go with another company for the replacement, the cost of the temporary repair will be due from customer.</strong></p>
+                    <p style="color: red;"><strong>Rising Sun Air is not responsible for roof repairs or water leaks.</strong></p>
+                  </ul>                          
                 </div>
                 <div class="mt-4">
                   <button onclick="muestra_oculta('contenido1')" class="btn btn-primary" form="contenido1">+</button>
@@ -111,36 +113,37 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-4">
+          <!--SERVICE 2-->
+          <div class="col-12 col-md-4">
             <div class="card mb-3">
               <img src="./Multimedia/AC Tuneup.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">A/C Tune Up</h5>
                 <div id="contenido2">
-                <p class="card-text">Includes:</p>
-                <ul>
-                  <li>Check and adjust thermostat ad needed</li>
-                  <li>Check filter</li>
-                  <li>Check voltages</li>
-                  <li>Check all wiring and connections</li>
-                  <li>Check starting contactor</li>
-                  <li>Check all capacitors</li>
-                  <li>Check and measure all motor amperages</li>
-                  <li>Check operation of unit safety controls</li>
-                  <li>Check super heat</li>
-                  <li>Check evaporator coil condition</li>
-                  <li>Check for rubbing/vibrating refrigerant lines</li>
-                  <li>Check condenser coils</li>
-                  <li>Check the air temperatura across evaporator coil</li>
-                  <li>Check fan blades for cracks</li>
-                  <li>Check condenser temperature rise</li>
-                  <li>Check condensate drain or pump</li>
-                  <li>Check fuse disconnects</li>
-                  <li>Check condition of ductwork</li>
-                </ul>
-                <p>Includes outdoor condenser coil rinse.</p>
-                <p><strong>$55.00 For Each Additional Unit</strong></p>
-                <p class="text-start">When tune up is complete, you will receive a recommendation for any further maintenance or repair needs of your system.</p>
+                  <p class="card-text">Includes:</p>
+                  <ul>
+                    <li>Check and adjust thermostat ad needed</li>
+                    <li>Check filter</li>
+                    <li>Check voltages</li>
+                    <li>Check all wiring and connections</li>
+                    <li>Check starting contactor</li>
+                    <li>Check all capacitors</li>
+                    <li>Check and measure all motor amperages</li>
+                    <li>Check operation of unit safety controls</li>
+                    <li>Check super heat</li>
+                    <li>Check evaporator coil condition</li>
+                    <li>Check for rubbing/vibrating refrigerant lines</li>
+                    <li>Check condenser coils</li>
+                    <li>Check the air temperatura across evaporator coil</li>
+                    <li>Check fan blades for cracks</li>
+                    <li>Check condenser temperature rise</li>
+                    <li>Check condensate drain or pump</li>
+                    <li>Check fuse disconnects</li>
+                    <li>Check condition of ductwork</li>
+                  </ul>
+                  <p style="color: black;">Includes outdoor condenser coil rinse.</p>
+                  <p style="color: black;"><strong>$55.00 For Each Additional Unit</strong></p>
+                  <p style="color: black;" class="text-start">When tune up is complete, you will receive a recommendation for any further maintenance or repair needs of your system.</p>
                 </div>
                 <div class="mt-4">
                   <button onclick="muestra_oculta('contenido2')" class=" btn btn-primary" form="contenido2">+</button>
@@ -149,18 +152,19 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-4">
+          <!--SERVICD 3-->
+          <div class="col-12 col-md-4">
             <div class="card mb-3">
               <img src="./Multimedia/Free Estimate.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Free Estimate</h5>
                 <div id="contenido3">
-                <p class="card-text">Free Estimate-2nd opinion.</p>
-                <p>Equipment is subject to change due to shortages and availability.</p>
+                  <p class="card-text">Free Estimate-2nd opinion.</p>
+                  <p style="color: black;">Equipment is subject to change due to shortages and availability.</p>
                 </div>
-                <div class="mt-4">
-                <button onclick="muestra_oculta('contenido3')" class="btn btn-primary" form="contenido3">+</button>
-                <a href="https://book.housecallpro.com/book/Rising-Sun-Air-Inc/112964d9c227471c8e84d4ea371a06f1" class="btn btn-primary">Book Now</a>
+                  <div class="mt-4">
+                  <button onclick="muestra_oculta('contenido3')" class="btn btn-primary" form="contenido3">+</button>
+                  <a href="https://book.housecallpro.com/book/Rising-Sun-Air-Inc/112964d9c227471c8e84d4ea371a06f1" class="btn btn-primary">Book Now</a>
                 </div>
               </div>
             </div>
@@ -204,7 +208,7 @@
     <section class="m-5">
       <div class="elfsight-app-6717eaac-fdb1-49a9-ab99-4e208ddc1236" data-elfsight-app-lazy></div>
     </section>
-    
+  </main>
     <!--Footer-->
     <footer class="bg-body-tertiary" style="background-color: rgb(252, 252, 252);">
       <div class="container-fluid">
