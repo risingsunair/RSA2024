@@ -14,6 +14,17 @@ header{
     width: 100vw;
 }
 
+.topbox {
+    text-decoration: none;
+    background-color: orange;
+    text-align: center;
+    color: white;
+    font-size:large;
+    font-weight: 600;
+    padding: .5em;
+    text-shadow: rgba(21, 10, 95, 0.242) 5px 3px 5px;
+}
+
 /*NAV*/
 nav .btn-primary{
     height: 3em;
@@ -264,7 +275,7 @@ footer a{
     font-weight: 600;
 }
 
-.blog p{
+.blog p, li{
     font-size: 1.2em;
     text-align: justify;
     color: black;
