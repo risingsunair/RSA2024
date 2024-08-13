@@ -41,11 +41,41 @@ nav li{
 
 }
 
-nav .btn-txt{
+nav .btn-txt {
     text-decoration: none;
     font-size: 1.5em;
     font-weight:800;
 }
+
+nav .btn-contact-movil {
+    order: 1;
+}
+
+nav .btn-contact-pc {
+    order: 2;
+}
+
+nav .btn-contact-book {
+    order: 3;
+}
+
+@media (width >= 576px) {
+    nav .btn-contact-pc { 
+        visibility: visible;
+    }
+
+    nav .btn-contact-movil {
+        visibility: hidden;
+    }
+}
+
+@media (width < 576px) {
+    nav .btn-contact-pc {
+        visibility: hidden;
+        order: 2;
+    }
+}
+
 
 @media (max-width:768px) {
     nav img{
