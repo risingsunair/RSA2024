@@ -217,17 +217,17 @@ nav .btn-contact-book {
 
 /*CARDS SERVICES*/
 
-#contenido1{
+#contenido1 {
     display: none;
     flex-flow: wrap;
 }
 
-#contenido2{
+#contenido2 {
     display: none;
     flex-flow: wrap;
 }
 
-#contenido3{
+#contenido3 {
     display: none;
     flex-flow: wrap;
 }
