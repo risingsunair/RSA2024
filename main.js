@@ -1,4 +1,4 @@
-function muestra_oculta(id){
+function muestra_oculta(id) {
     let div = document.getElementById(id);
     if (div.style.display == "flex") {
         div.style.display = "none";
